@@ -1,0 +1,1 @@
+print("Ê mấy thằng culi")
