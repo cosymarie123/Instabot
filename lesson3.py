@@ -22,6 +22,8 @@ class InstagramBot():
         browser = self.browser
         browser.get('https://www.instagram.com/')
         print("Mấy thằng nhóc ác")
+        print("Baby à")
+        print("Baby của anh")
         time.sleep(random.randrange(3,5))
 
         username_input = browser.find_element_by_name('username')
