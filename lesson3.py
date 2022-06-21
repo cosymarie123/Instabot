@@ -47,9 +47,8 @@ class InstagramBot():
             browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             time.sleep(random.randrange(3,5))
 
-        hrefs = browser.find_elements_by_tag_name('a')
 
-        posts_urls = [item.get_attribute('href') for item in hrefs if '/p' in item.get_attribute('href')]
+        posts_urls = [item.get_attribute('href') for item in hrefs if '/pqa' in item.get_attribute('href')]
             
         for url in posts_urls:
             try:
