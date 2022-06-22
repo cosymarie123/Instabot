@@ -4,4 +4,4 @@ file_name = name.split('/')[-2]
 print(file_name)
 print("Fintech DRACO")
 print("Fintech DRACO Edit")
-print("Fintech DRACO Github")
+print("Fintech DRACO Windows")
